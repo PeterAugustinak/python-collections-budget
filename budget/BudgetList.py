@@ -31,7 +31,7 @@ def main():
     for expense in expenses.list:
         myBudgetList.append(expense.amount)
 
-    print(f"The count of all expenses: {len(myBudgetList)}")
+    print(f"The count of all expenses: " + str(len(myBudgetList)))
 
 
 if __name__ == "__main__":
